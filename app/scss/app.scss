@@ -2,10 +2,31 @@
 
 html {
     body {
-        .myspaceBaseWrap {
+        .animationFadeInModule {
+            .grid-wrapper {
+                margin: 4em auto;
+            }
             .site-wrapper {
-
+                img {
+                    max-width: 100%;
+                }
+                /** Items below needed for the animationFadeInModule */
+                .animate {
+                    filter: opacity(0);
+                    -webkit-filter: opacity(0);
+                    -moz-filter: opacity(0);
+                    -ms-filter: opacity(0);
+                    -o-filter: opacity(0);
+                    transition : filter 1s ease-in;
+                    &.in-view {
+                        filter: opacity(1);
+                        -webkit-filter: opacity(1);
+                        -moz-filter: opacity(1);
+                        -ms-filter: opacity(1);
+                        -o-filter: opacity(1);
+                    }
+                }
             } /** end .site-wrapper */
-        } /** end .myspaceBaseWrap */
+        } /** end .animationFadeInModule */
     } /** end body */
 } /** end html */

@@ -1,3 +1,19 @@
+animationFadeInModule
+=========
+
+The animationFadeInModule can be used to provide smooth transitions of elements on the page as the user scrolls. This allows elements to subtlely fade-in and ultimate provides a better user experience. This uses the filter opacity CSS 3 element, so likely won't work in IE. This is okay because it doesn't impact the way the user can consumer the information.
+
+## There are a few things to know before using this in your project:
+
+1. For starters, I built this with my boilerplate but you *DON'T* need my boilerplate to make the module work in your project
+
+2. The module requires the HTML to build it, the CSS to style it and the JS/JQuery to give it the functionality
+
+5. Questions?
+    * Adam.Knee@dcsg.com
+
+## Using the boilerplate & getting started:
+
 mySpaceBase
 =========
 
@@ -12,7 +28,7 @@ mySpaceBase
 4. Open scss/_vars.scss to make changes to your global variables.
 4. Start building out your HTML. I've included index.html as a starting point.
 6. scss/base/ is the core of mySpaceBase. Build your UI layer in scss/ui/
-7. Do a find and replace on the entire project directory for '.myspaceBaseWrap' and replace the name with your project specfic name (e.g. '.gameCrusher3' )
+7. Do a find and replace on the entire project directory for '.mySpaceBaseWrap' and replace the name with your project specfic name (e.g. '.gameCrusher3' )
 
 Many CSS frameworks are meant to be included and left alone. But mySpaceBase is a boilerplate layer that can be built upon and tailored for your needs. It combines best practices for today’s responsive web with the core components we use on every project. Consider it the launch pad for your adventures into cyberspace.
 

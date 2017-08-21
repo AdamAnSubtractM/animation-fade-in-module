@@ -1,12 +1,12 @@
 //------------------------------------//
 //  $PRINT
 //------------------------------------//
-.mySpaceBaseWrap {
+.animationFadeInModule {
   .visible-print { display: none !important; }
 }
 
 @include media($type: print) {
-  .mySpaceBaseWrap {
+  .animationFadeInModule {
     * {
       // scss-lint:disable ColorVariable
       background: transparent !important;
@@ -19,7 +19,7 @@
 
   @page { margin: .5cm; }
 
-  .mySpaceBaseWrap {
+  .animationFadeInModule {
 
     thead { display: table-header-group; }
     table, tr, img { page-break-inside: avoid; }

@@ -1,330 +1,377 @@
 /*
-  spaceBase version: 3.0.1
-  http://spacebase.space150.com
+  mySpaceBase version: 1.0.1
+  https://bitbucket.org/dsgfed/myspacebase
 */
-.mySpaceBaseWrap .gw,
-.mySpaceBaseWrap .grid-wrapper {
+.animationFadeInModule .gw,
+.animationFadeInModule .grid-wrapper {
   list-style: none;
   margin-bottom: 0;
-  margin-left: -1.75rem; }
-  .mySpaceBaseWrap .gw:after,
-  .mySpaceBaseWrap .grid-wrapper:after {
+  margin-left: -2.8rem; }
+  .animationFadeInModule .gw:after,
+  .animationFadeInModule .grid-wrapper:after {
     display: table;
     content: "";
     clear: both; }
 
-.mySpaceBaseWrap .gw--rev > .g,
-.mySpaceBaseWrap .grid-wrapper--rev > .grid {
+.animationFadeInModule .gw--rev > .g,
+.animationFadeInModule .grid-wrapper--rev > .grid {
   float: right; }
 
-.mySpaceBaseWrap .gw--full,
-.mySpaceBaseWrap .grid-wrapper--full {
+.animationFadeInModule .gw--full,
+.animationFadeInModule .grid-wrapper--full {
   margin-left: 0; }
-  .mySpaceBaseWrap .gw--full > .g,
-  .mySpaceBaseWrap .gw--full > .grid,
-  .mySpaceBaseWrap .grid-wrapper--full > .g,
-  .mySpaceBaseWrap .grid-wrapper--full > .grid {
+  .animationFadeInModule .gw--full > .g,
+  .animationFadeInModule .gw--full > .grid,
+  .animationFadeInModule .grid-wrapper--full > .g,
+  .animationFadeInModule .grid-wrapper--full > .grid {
     padding-left: 0; }
 
-.mySpaceBaseWrap .gw > .gw,
-.mySpaceBaseWrap .grid-wrapper > .grid-wrapper {
+.animationFadeInModule .gw > .gw,
+.animationFadeInModule .grid-wrapper > .grid-wrapper {
   margin-left: 0; }
 
-.mySpaceBaseWrap .g,
-.mySpaceBaseWrap .grid {
+.animationFadeInModule .g,
+.animationFadeInModule .grid {
   float: left;
   width: 100%;
-  padding-left: 1.75rem;
+  padding-left: 2.8rem;
   transition: width .15s ease; }
 
-.myspaceBaseWrap .one-whole {
+.animationFadeInModule .one-whole {
   width: 100%; }
 
-.myspaceBaseWrap .one-half, .myspaceBaseWrap .two-quarters, .myspaceBaseWrap .three-sixths, .myspaceBaseWrap .four-eighths, .myspaceBaseWrap .five-tenths, .myspaceBaseWrap .six-twelfths {
+.animationFadeInModule .one-half, .animationFadeInModule .two-quarters, .animationFadeInModule .three-sixths, .animationFadeInModule .four-eighths, .animationFadeInModule .five-tenths, .animationFadeInModule .six-twelfths {
   width: 50%; }
 
-.myspaceBaseWrap .one-third, .myspaceBaseWrap .two-sixths, .myspaceBaseWrap .four-twelfths {
+.animationFadeInModule .one-third, .animationFadeInModule .two-sixths, .animationFadeInModule .four-twelfths {
   width: 33.33333%; }
 
-.myspaceBaseWrap .two-thirds, .myspaceBaseWrap .four-sixths, .myspaceBaseWrap .eight-twelfths {
+.animationFadeInModule .two-thirds, .animationFadeInModule .four-sixths, .animationFadeInModule .eight-twelfths {
   width: 66.66667%; }
 
-.myspaceBaseWrap .one-quarter, .myspaceBaseWrap .two-eighths, .myspaceBaseWrap .three-twelfths {
+.animationFadeInModule .one-quarter, .animationFadeInModule .two-eighths, .animationFadeInModule .three-twelfths {
   width: 25%; }
 
-.myspaceBaseWrap .three-quarters, .myspaceBaseWrap .six-eighths, .myspaceBaseWrap .nine-twelfths {
+.animationFadeInModule .three-quarters, .animationFadeInModule .six-eighths, .animationFadeInModule .nine-twelfths {
   width: 75%; }
 
-.myspaceBaseWrap .one-fifth, .myspaceBaseWrap .two-tenths {
+.animationFadeInModule .one-fifth, .animationFadeInModule .two-tenths {
   width: 20%; }
 
-.myspaceBaseWrap .two-fifths, .myspaceBaseWrap .four-tenths {
+.animationFadeInModule .two-fifths, .animationFadeInModule .four-tenths {
   width: 40%; }
 
-.myspaceBaseWrap .three-fifths, .myspaceBaseWrap .six-tenths {
+.animationFadeInModule .three-fifths, .animationFadeInModule .six-tenths {
   width: 60%; }
 
-.myspaceBaseWrap .four-fifths, .myspaceBaseWrap .eight-tenths {
+.animationFadeInModule .four-fifths, .animationFadeInModule .eight-tenths {
   width: 80%; }
 
-.myspaceBaseWrap .one-sixth, .myspaceBaseWrap .two-twelfths {
+.animationFadeInModule .one-sixth, .animationFadeInModule .two-twelfths {
   width: 16.66667%; }
 
-.myspaceBaseWrap .five-sixths, .myspaceBaseWrap .ten-twelfths {
+.animationFadeInModule .five-sixths, .animationFadeInModule .ten-twelfths {
   width: 83.33333%; }
 
-.myspaceBaseWrap .one-eighth {
+.animationFadeInModule .one-eighth {
   width: 12.5%; }
 
-.myspaceBaseWrap .three-eighths {
+.animationFadeInModule .three-eighths {
   width: 37.5%; }
 
-.myspaceBaseWrap .five-eighths {
+.animationFadeInModule .five-eighths {
   width: 62.5%; }
 
-.myspaceBaseWrap .seven-eighths {
+.animationFadeInModule .seven-eighths {
   width: 87.5%; }
 
-.myspaceBaseWrap .one-tenth {
+.animationFadeInModule .one-tenth {
   width: 10%; }
 
-.myspaceBaseWrap .three-tenths {
+.animationFadeInModule .three-tenths {
   width: 30%; }
 
-.myspaceBaseWrap .seven-tenths {
+.animationFadeInModule .seven-tenths {
   width: 70%; }
 
-.myspaceBaseWrap .nine-tenths {
+.animationFadeInModule .nine-tenths {
   width: 90%; }
 
-.myspaceBaseWrap .one-twelfth {
+.animationFadeInModule .one-twelfth {
   width: 8.33333%; }
 
-.myspaceBaseWrap .five-twelfths {
+.animationFadeInModule .five-twelfths {
   width: 41.66667%; }
 
-.myspaceBaseWrap .seven-twelfths {
+.animationFadeInModule .seven-twelfths {
   width: 58.33333%; }
 
-.myspaceBaseWrap .eleven-twelfths {
+.animationFadeInModule .eleven-twelfths {
   width: 91.66667%; }
 
-@media screen and (min-width: 30em) {
-  .myspaceBaseWrap .hand-one-whole {
+@media screen and (min-width: 20em) {
+  .animationFadeInModule .hand-one-whole {
     width: 100%; }
-  .myspaceBaseWrap .hand-one-half, .myspaceBaseWrap .hand-two-quarters, .myspaceBaseWrap .hand-three-sixths, .myspaceBaseWrap .hand-four-eighths, .myspaceBaseWrap .hand-five-tenths, .myspaceBaseWrap .hand-six-twelfths {
+  .animationFadeInModule .hand-one-half, .animationFadeInModule .hand-two-quarters, .animationFadeInModule .hand-three-sixths, .animationFadeInModule .hand-four-eighths, .animationFadeInModule .hand-five-tenths, .animationFadeInModule .hand-six-twelfths {
     width: 50%; }
-  .myspaceBaseWrap .hand-one-third, .myspaceBaseWrap .hand-two-sixths, .myspaceBaseWrap .hand-four-twelfths {
+  .animationFadeInModule .hand-one-third, .animationFadeInModule .hand-two-sixths, .animationFadeInModule .hand-four-twelfths {
     width: 33.33333%; }
-  .myspaceBaseWrap .hand-two-thirds, .myspaceBaseWrap .hand-four-sixths, .myspaceBaseWrap .hand-eight-twelfths {
+  .animationFadeInModule .hand-two-thirds, .animationFadeInModule .hand-four-sixths, .animationFadeInModule .hand-eight-twelfths {
     width: 66.66667%; }
-  .myspaceBaseWrap .hand-one-quarter, .myspaceBaseWrap .hand-two-eighths, .myspaceBaseWrap .hand-three-twelfths {
+  .animationFadeInModule .hand-one-quarter, .animationFadeInModule .hand-two-eighths, .animationFadeInModule .hand-three-twelfths {
     width: 25%; }
-  .myspaceBaseWrap .hand-three-quarters, .myspaceBaseWrap .hand-six-eighths, .myspaceBaseWrap .hand-nine-twelfths {
+  .animationFadeInModule .hand-three-quarters, .animationFadeInModule .hand-six-eighths, .animationFadeInModule .hand-nine-twelfths {
     width: 75%; }
-  .myspaceBaseWrap .hand-one-fifth, .myspaceBaseWrap .hand-two-tenths {
+  .animationFadeInModule .hand-one-fifth, .animationFadeInModule .hand-two-tenths {
     width: 20%; }
-  .myspaceBaseWrap .hand-two-fifths, .myspaceBaseWrap .hand-four-tenths {
+  .animationFadeInModule .hand-two-fifths, .animationFadeInModule .hand-four-tenths {
     width: 40%; }
-  .myspaceBaseWrap .hand-three-fifths, .myspaceBaseWrap .hand-six-tenths {
+  .animationFadeInModule .hand-three-fifths, .animationFadeInModule .hand-six-tenths {
     width: 60%; }
-  .myspaceBaseWrap .hand-four-fifths, .myspaceBaseWrap .hand-eight-tenths {
+  .animationFadeInModule .hand-four-fifths, .animationFadeInModule .hand-eight-tenths {
     width: 80%; }
-  .myspaceBaseWrap .hand-one-sixth, .myspaceBaseWrap .hand-two-twelfths {
+  .animationFadeInModule .hand-one-sixth, .animationFadeInModule .hand-two-twelfths {
     width: 16.66667%; }
-  .myspaceBaseWrap .hand-five-sixths, .myspaceBaseWrap .hand-ten-twelfths {
+  .animationFadeInModule .hand-five-sixths, .animationFadeInModule .hand-ten-twelfths {
     width: 83.33333%; }
-  .myspaceBaseWrap .hand-one-eighth {
+  .animationFadeInModule .hand-one-eighth {
     width: 12.5%; }
-  .myspaceBaseWrap .hand-three-eighths {
+  .animationFadeInModule .hand-three-eighths {
     width: 37.5%; }
-  .myspaceBaseWrap .hand-five-eighths {
+  .animationFadeInModule .hand-five-eighths {
     width: 62.5%; }
-  .myspaceBaseWrap .hand-seven-eighths {
+  .animationFadeInModule .hand-seven-eighths {
     width: 87.5%; }
-  .myspaceBaseWrap .hand-one-tenth {
+  .animationFadeInModule .hand-one-tenth {
     width: 10%; }
-  .myspaceBaseWrap .hand-three-tenths {
+  .animationFadeInModule .hand-three-tenths {
     width: 30%; }
-  .myspaceBaseWrap .hand-seven-tenths {
+  .animationFadeInModule .hand-seven-tenths {
     width: 70%; }
-  .myspaceBaseWrap .hand-nine-tenths {
+  .animationFadeInModule .hand-nine-tenths {
     width: 90%; }
-  .myspaceBaseWrap .hand-one-twelfth {
+  .animationFadeInModule .hand-one-twelfth {
     width: 8.33333%; }
-  .myspaceBaseWrap .hand-five-twelfths {
+  .animationFadeInModule .hand-five-twelfths {
     width: 41.66667%; }
-  .myspaceBaseWrap .hand-seven-twelfths {
+  .animationFadeInModule .hand-seven-twelfths {
     width: 58.33333%; }
-  .myspaceBaseWrap .hand-eleven-twelfths {
+  .animationFadeInModule .hand-eleven-twelfths {
     width: 91.66667%; } }
 
-@media screen and (min-width: 48em) {
-  .myspaceBaseWrap .lap-one-whole {
+@media screen and (min-width: 40em) {
+  .animationFadeInModule .lap-one-whole {
     width: 100%; }
-  .myspaceBaseWrap .lap-one-half, .myspaceBaseWrap .lap-two-quarters, .myspaceBaseWrap .lap-three-sixths, .myspaceBaseWrap .lap-four-eighths, .myspaceBaseWrap .lap-five-tenths, .myspaceBaseWrap .lap-six-twelfths {
+  .animationFadeInModule .lap-one-half, .animationFadeInModule .lap-two-quarters, .animationFadeInModule .lap-three-sixths, .animationFadeInModule .lap-four-eighths, .animationFadeInModule .lap-five-tenths, .animationFadeInModule .lap-six-twelfths {
     width: 50%; }
-  .myspaceBaseWrap .lap-one-third, .myspaceBaseWrap .lap-two-sixths, .myspaceBaseWrap .lap-four-twelfths {
+  .animationFadeInModule .lap-one-third, .animationFadeInModule .lap-two-sixths, .animationFadeInModule .lap-four-twelfths {
     width: 33.33333%; }
-  .myspaceBaseWrap .lap-two-thirds, .myspaceBaseWrap .lap-four-sixths, .myspaceBaseWrap .lap-eight-twelfths {
+  .animationFadeInModule .lap-two-thirds, .animationFadeInModule .lap-four-sixths, .animationFadeInModule .lap-eight-twelfths {
     width: 66.66667%; }
-  .myspaceBaseWrap .lap-one-quarter, .myspaceBaseWrap .lap-two-eighths, .myspaceBaseWrap .lap-three-twelfths {
+  .animationFadeInModule .lap-one-quarter, .animationFadeInModule .lap-two-eighths, .animationFadeInModule .lap-three-twelfths {
     width: 25%; }
-  .myspaceBaseWrap .lap-three-quarters, .myspaceBaseWrap .lap-six-eighths, .myspaceBaseWrap .lap-nine-twelfths {
+  .animationFadeInModule .lap-three-quarters, .animationFadeInModule .lap-six-eighths, .animationFadeInModule .lap-nine-twelfths {
     width: 75%; }
-  .myspaceBaseWrap .lap-one-fifth, .myspaceBaseWrap .lap-two-tenths {
+  .animationFadeInModule .lap-one-fifth, .animationFadeInModule .lap-two-tenths {
     width: 20%; }
-  .myspaceBaseWrap .lap-two-fifths, .myspaceBaseWrap .lap-four-tenths {
+  .animationFadeInModule .lap-two-fifths, .animationFadeInModule .lap-four-tenths {
     width: 40%; }
-  .myspaceBaseWrap .lap-three-fifths, .myspaceBaseWrap .lap-six-tenths {
+  .animationFadeInModule .lap-three-fifths, .animationFadeInModule .lap-six-tenths {
     width: 60%; }
-  .myspaceBaseWrap .lap-four-fifths, .myspaceBaseWrap .lap-eight-tenths {
+  .animationFadeInModule .lap-four-fifths, .animationFadeInModule .lap-eight-tenths {
     width: 80%; }
-  .myspaceBaseWrap .lap-one-sixth, .myspaceBaseWrap .lap-two-twelfths {
+  .animationFadeInModule .lap-one-sixth, .animationFadeInModule .lap-two-twelfths {
     width: 16.66667%; }
-  .myspaceBaseWrap .lap-five-sixths, .myspaceBaseWrap .lap-ten-twelfths {
+  .animationFadeInModule .lap-five-sixths, .animationFadeInModule .lap-ten-twelfths {
     width: 83.33333%; }
-  .myspaceBaseWrap .lap-one-eighth {
+  .animationFadeInModule .lap-one-eighth {
     width: 12.5%; }
-  .myspaceBaseWrap .lap-three-eighths {
+  .animationFadeInModule .lap-three-eighths {
     width: 37.5%; }
-  .myspaceBaseWrap .lap-five-eighths {
+  .animationFadeInModule .lap-five-eighths {
     width: 62.5%; }
-  .myspaceBaseWrap .lap-seven-eighths {
+  .animationFadeInModule .lap-seven-eighths {
     width: 87.5%; }
-  .myspaceBaseWrap .lap-one-tenth {
+  .animationFadeInModule .lap-one-tenth {
     width: 10%; }
-  .myspaceBaseWrap .lap-three-tenths {
+  .animationFadeInModule .lap-three-tenths {
     width: 30%; }
-  .myspaceBaseWrap .lap-seven-tenths {
+  .animationFadeInModule .lap-seven-tenths {
     width: 70%; }
-  .myspaceBaseWrap .lap-nine-tenths {
+  .animationFadeInModule .lap-nine-tenths {
     width: 90%; }
-  .myspaceBaseWrap .lap-one-twelfth {
+  .animationFadeInModule .lap-one-twelfth {
     width: 8.33333%; }
-  .myspaceBaseWrap .lap-five-twelfths {
+  .animationFadeInModule .lap-five-twelfths {
     width: 41.66667%; }
-  .myspaceBaseWrap .lap-seven-twelfths {
+  .animationFadeInModule .lap-seven-twelfths {
     width: 58.33333%; }
-  .myspaceBaseWrap .lap-eleven-twelfths {
+  .animationFadeInModule .lap-eleven-twelfths {
     width: 91.66667%; } }
 
-@media screen and (min-width: 64em) {
-  .myspaceBaseWrap .desk-one-whole {
+@media screen and (min-width: 62.5em) {
+  .animationFadeInModule .desk-one-whole {
     width: 100%; }
-  .myspaceBaseWrap .desk-one-half, .myspaceBaseWrap .desk-two-quarters, .myspaceBaseWrap .desk-three-sixths, .myspaceBaseWrap .desk-four-eighths, .myspaceBaseWrap .desk-five-tenths, .myspaceBaseWrap .desk-six-twelfths {
+  .animationFadeInModule .desk-one-half, .animationFadeInModule .desk-two-quarters, .animationFadeInModule .desk-three-sixths, .animationFadeInModule .desk-four-eighths, .animationFadeInModule .desk-five-tenths, .animationFadeInModule .desk-six-twelfths {
     width: 50%; }
-  .myspaceBaseWrap .desk-one-third, .myspaceBaseWrap .desk-two-sixths, .myspaceBaseWrap .desk-four-twelfths {
+  .animationFadeInModule .desk-one-third, .animationFadeInModule .desk-two-sixths, .animationFadeInModule .desk-four-twelfths {
     width: 33.33333%; }
-  .myspaceBaseWrap .desk-two-thirds, .myspaceBaseWrap .desk-four-sixths, .myspaceBaseWrap .desk-eight-twelfths {
+  .animationFadeInModule .desk-two-thirds, .animationFadeInModule .desk-four-sixths, .animationFadeInModule .desk-eight-twelfths {
     width: 66.66667%; }
-  .myspaceBaseWrap .desk-one-quarter, .myspaceBaseWrap .desk-two-eighths, .myspaceBaseWrap .desk-three-twelfths {
+  .animationFadeInModule .desk-one-quarter, .animationFadeInModule .desk-two-eighths, .animationFadeInModule .desk-three-twelfths {
     width: 25%; }
-  .myspaceBaseWrap .desk-three-quarters, .myspaceBaseWrap .desk-six-eighths, .myspaceBaseWrap .desk-nine-twelfths {
+  .animationFadeInModule .desk-three-quarters, .animationFadeInModule .desk-six-eighths, .animationFadeInModule .desk-nine-twelfths {
     width: 75%; }
-  .myspaceBaseWrap .desk-one-fifth, .myspaceBaseWrap .desk-two-tenths {
+  .animationFadeInModule .desk-one-fifth, .animationFadeInModule .desk-two-tenths {
     width: 20%; }
-  .myspaceBaseWrap .desk-two-fifths, .myspaceBaseWrap .desk-four-tenths {
+  .animationFadeInModule .desk-two-fifths, .animationFadeInModule .desk-four-tenths {
     width: 40%; }
-  .myspaceBaseWrap .desk-three-fifths, .myspaceBaseWrap .desk-six-tenths {
+  .animationFadeInModule .desk-three-fifths, .animationFadeInModule .desk-six-tenths {
     width: 60%; }
-  .myspaceBaseWrap .desk-four-fifths, .myspaceBaseWrap .desk-eight-tenths {
+  .animationFadeInModule .desk-four-fifths, .animationFadeInModule .desk-eight-tenths {
     width: 80%; }
-  .myspaceBaseWrap .desk-one-sixth, .myspaceBaseWrap .desk-two-twelfths {
+  .animationFadeInModule .desk-one-sixth, .animationFadeInModule .desk-two-twelfths {
     width: 16.66667%; }
-  .myspaceBaseWrap .desk-five-sixths, .myspaceBaseWrap .desk-ten-twelfths {
+  .animationFadeInModule .desk-five-sixths, .animationFadeInModule .desk-ten-twelfths {
     width: 83.33333%; }
-  .myspaceBaseWrap .desk-one-eighth {
+  .animationFadeInModule .desk-one-eighth {
     width: 12.5%; }
-  .myspaceBaseWrap .desk-three-eighths {
+  .animationFadeInModule .desk-three-eighths {
     width: 37.5%; }
-  .myspaceBaseWrap .desk-five-eighths {
+  .animationFadeInModule .desk-five-eighths {
     width: 62.5%; }
-  .myspaceBaseWrap .desk-seven-eighths {
+  .animationFadeInModule .desk-seven-eighths {
     width: 87.5%; }
-  .myspaceBaseWrap .desk-one-tenth {
+  .animationFadeInModule .desk-one-tenth {
     width: 10%; }
-  .myspaceBaseWrap .desk-three-tenths {
+  .animationFadeInModule .desk-three-tenths {
     width: 30%; }
-  .myspaceBaseWrap .desk-seven-tenths {
+  .animationFadeInModule .desk-seven-tenths {
     width: 70%; }
-  .myspaceBaseWrap .desk-nine-tenths {
+  .animationFadeInModule .desk-nine-tenths {
     width: 90%; }
-  .myspaceBaseWrap .desk-one-twelfth {
+  .animationFadeInModule .desk-one-twelfth {
     width: 8.33333%; }
-  .myspaceBaseWrap .desk-five-twelfths {
+  .animationFadeInModule .desk-five-twelfths {
     width: 41.66667%; }
-  .myspaceBaseWrap .desk-seven-twelfths {
+  .animationFadeInModule .desk-seven-twelfths {
     width: 58.33333%; }
-  .myspaceBaseWrap .desk-eleven-twelfths {
+  .animationFadeInModule .desk-eleven-twelfths {
     width: 91.66667%; } }
 
 @media screen and (min-width: 75em) {
-  .myspaceBaseWrap .wall-one-whole {
+  .animationFadeInModule .wall-one-whole {
     width: 100%; }
-  .myspaceBaseWrap .wall-one-half, .myspaceBaseWrap .wall-two-quarters, .myspaceBaseWrap .wall-three-sixths, .myspaceBaseWrap .wall-four-eighths, .myspaceBaseWrap .wall-five-tenths, .myspaceBaseWrap .wall-six-twelfths {
+  .animationFadeInModule .wall-one-half, .animationFadeInModule .wall-two-quarters, .animationFadeInModule .wall-three-sixths, .animationFadeInModule .wall-four-eighths, .animationFadeInModule .wall-five-tenths, .animationFadeInModule .wall-six-twelfths {
     width: 50%; }
-  .myspaceBaseWrap .wall-one-third, .myspaceBaseWrap .wall-two-sixths, .myspaceBaseWrap .wall-four-twelfths {
+  .animationFadeInModule .wall-one-third, .animationFadeInModule .wall-two-sixths, .animationFadeInModule .wall-four-twelfths {
     width: 33.33333%; }
-  .myspaceBaseWrap .wall-two-thirds, .myspaceBaseWrap .wall-four-sixths, .myspaceBaseWrap .wall-eight-twelfths {
+  .animationFadeInModule .wall-two-thirds, .animationFadeInModule .wall-four-sixths, .animationFadeInModule .wall-eight-twelfths {
     width: 66.66667%; }
-  .myspaceBaseWrap .wall-one-quarter, .myspaceBaseWrap .wall-two-eighths, .myspaceBaseWrap .wall-three-twelfths {
+  .animationFadeInModule .wall-one-quarter, .animationFadeInModule .wall-two-eighths, .animationFadeInModule .wall-three-twelfths {
     width: 25%; }
-  .myspaceBaseWrap .wall-three-quarters, .myspaceBaseWrap .wall-six-eighths, .myspaceBaseWrap .wall-nine-twelfths {
+  .animationFadeInModule .wall-three-quarters, .animationFadeInModule .wall-six-eighths, .animationFadeInModule .wall-nine-twelfths {
     width: 75%; }
-  .myspaceBaseWrap .wall-one-fifth, .myspaceBaseWrap .wall-two-tenths {
+  .animationFadeInModule .wall-one-fifth, .animationFadeInModule .wall-two-tenths {
     width: 20%; }
-  .myspaceBaseWrap .wall-two-fifths, .myspaceBaseWrap .wall-four-tenths {
+  .animationFadeInModule .wall-two-fifths, .animationFadeInModule .wall-four-tenths {
     width: 40%; }
-  .myspaceBaseWrap .wall-three-fifths, .myspaceBaseWrap .wall-six-tenths {
+  .animationFadeInModule .wall-three-fifths, .animationFadeInModule .wall-six-tenths {
     width: 60%; }
-  .myspaceBaseWrap .wall-four-fifths, .myspaceBaseWrap .wall-eight-tenths {
+  .animationFadeInModule .wall-four-fifths, .animationFadeInModule .wall-eight-tenths {
     width: 80%; }
-  .myspaceBaseWrap .wall-one-sixth, .myspaceBaseWrap .wall-two-twelfths {
+  .animationFadeInModule .wall-one-sixth, .animationFadeInModule .wall-two-twelfths {
     width: 16.66667%; }
-  .myspaceBaseWrap .wall-five-sixths, .myspaceBaseWrap .wall-ten-twelfths {
+  .animationFadeInModule .wall-five-sixths, .animationFadeInModule .wall-ten-twelfths {
     width: 83.33333%; }
-  .myspaceBaseWrap .wall-one-eighth {
+  .animationFadeInModule .wall-one-eighth {
     width: 12.5%; }
-  .myspaceBaseWrap .wall-three-eighths {
+  .animationFadeInModule .wall-three-eighths {
     width: 37.5%; }
-  .myspaceBaseWrap .wall-five-eighths {
+  .animationFadeInModule .wall-five-eighths {
     width: 62.5%; }
-  .myspaceBaseWrap .wall-seven-eighths {
+  .animationFadeInModule .wall-seven-eighths {
     width: 87.5%; }
-  .myspaceBaseWrap .wall-one-tenth {
+  .animationFadeInModule .wall-one-tenth {
     width: 10%; }
-  .myspaceBaseWrap .wall-three-tenths {
+  .animationFadeInModule .wall-three-tenths {
     width: 30%; }
-  .myspaceBaseWrap .wall-seven-tenths {
+  .animationFadeInModule .wall-seven-tenths {
     width: 70%; }
-  .myspaceBaseWrap .wall-nine-tenths {
+  .animationFadeInModule .wall-nine-tenths {
     width: 90%; }
-  .myspaceBaseWrap .wall-one-twelfth {
+  .animationFadeInModule .wall-one-twelfth {
     width: 8.33333%; }
-  .myspaceBaseWrap .wall-five-twelfths {
+  .animationFadeInModule .wall-five-twelfths {
     width: 41.66667%; }
-  .myspaceBaseWrap .wall-seven-twelfths {
+  .animationFadeInModule .wall-seven-twelfths {
     width: 58.33333%; }
-  .myspaceBaseWrap .wall-eleven-twelfths {
+  .animationFadeInModule .wall-eleven-twelfths {
     width: 91.66667%; } }
 
-.myspaceBaseWrap .cf:after {
+.animationFadeInModule *, .animationFadeInModule *:before, .animationFadeInModule *:after {
+  box-sizing: border-box; }
+
+.animationFadeInModule audio,
+.animationFadeInModule canvas,
+.animationFadeInModule img,
+.animationFadeInModule svg,
+.animationFadeInModule video {
+  vertical-align: middle; }
+
+.animationFadeInModule img {
+  max-width: 100%;
+  -ms-interpolation-mode: bicubic; }
+
+.animationFadeInModule img[width],
+.animationFadeInModule img[height] {
+  max-width: none; }
+
+.animationFadeInModule h1, .animationFadeInModule h2, .animationFadeInModule h3, .animationFadeInModule h4, .animationFadeInModule h5, .animationFadeInModule h6, .animationFadeInModule hgroup, .animationFadeInModule hr,
+.animationFadeInModule ul, .animationFadeInModule ol, .animationFadeInModule dl,
+.animationFadeInModule blockquote, .animationFadeInModule p, .animationFadeInModule address,
+.animationFadeInModule table,
+.animationFadeInModule fieldset, .animationFadeInModule figure, .animationFadeInModule figcaption,
+.animationFadeInModule pre {
+  margin-top: 0;
+  margin-bottom: 2.8rem; }
+  .animationFadeInModule h1 ul, .animationFadeInModule h1 ol, .animationFadeInModule h2 ul, .animationFadeInModule h2 ol, .animationFadeInModule h3 ul, .animationFadeInModule h3 ol, .animationFadeInModule h4 ul, .animationFadeInModule h4 ol, .animationFadeInModule h5 ul, .animationFadeInModule h5 ol, .animationFadeInModule h6 ul, .animationFadeInModule h6 ol, .animationFadeInModule hgroup ul, .animationFadeInModule hgroup ol, .animationFadeInModule hr ul, .animationFadeInModule hr ol,
+  .animationFadeInModule ul ul,
+  .animationFadeInModule ul ol, .animationFadeInModule ol ul, .animationFadeInModule ol ol, .animationFadeInModule dl ul, .animationFadeInModule dl ol,
+  .animationFadeInModule blockquote ul,
+  .animationFadeInModule blockquote ol, .animationFadeInModule p ul, .animationFadeInModule p ol, .animationFadeInModule address ul, .animationFadeInModule address ol,
+  .animationFadeInModule table ul,
+  .animationFadeInModule table ol,
+  .animationFadeInModule fieldset ul,
+  .animationFadeInModule fieldset ol, .animationFadeInModule figure ul, .animationFadeInModule figure ol, .animationFadeInModule figcaption ul, .animationFadeInModule figcaption ol,
+  .animationFadeInModule pre ul,
+  .animationFadeInModule pre ol {
+    margin-bottom: 0; }
+
+.animationFadeInModule ul, .animationFadeInModule ol, .animationFadeInModule dd {
+  margin-left: 2.8rem;
+  padding: 0; }
+
+.animationFadeInModule table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.animationFadeInModule .cf:after {
   display: table;
   content: "";
   clear: both; }
 
-.myspaceBaseWrap .ir {
+.animationFadeInModule .ir {
   border: 0;
   font: 0/0 a;
   text-shadow: none;
   color: transparent; }
 
-.myspaceBaseWrap .hidden {
+.animationFadeInModule .hidden {
   display: none;
   visibility: hidden; }
 
-.myspaceBaseWrap .visuallyhidden {
+.animationFadeInModule .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -334,8 +381,8 @@
   position: absolute;
   width: 1px; }
 
-.myspaceBaseWrap .visuallyhidden.focusable:active,
-.myspaceBaseWrap .visuallyhidden.focusable:focus {
+.animationFadeInModule .visuallyhidden.focusable:active,
+.animationFadeInModule .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -343,205 +390,195 @@
   position: static;
   width: auto; }
 
-@media screen and (max-width: 29.99em) {
-  .myspaceBaseWrap .hidden-below-hand {
+@media screen and (max-width: 19.99em) {
+  .animationFadeInModule .hidden-below-hand {
     display: none; } }
 
-@media screen and (min-width: 30em) {
-  .myspaceBaseWrap .hidden-hand-and-up {
+@media screen and (min-width: 20em) {
+  .animationFadeInModule .hidden-hand-and-up {
     display: none; } }
 
-@media screen and (max-width: 47.99em) {
-  .myspaceBaseWrap .hidden-below-lap {
+@media screen and (max-width: 39.99em) {
+  .animationFadeInModule .hidden-below-lap {
     display: none; } }
 
-@media screen and (min-width: 48em) {
-  .myspaceBaseWrap .hidden-lap-and-up {
+@media screen and (min-width: 40em) {
+  .animationFadeInModule .hidden-lap-and-up {
     display: none; } }
 
-@media screen and (max-width: 63.99em) {
-  .myspaceBaseWrap .hidden-below-desk {
+@media screen and (max-width: 62.49em) {
+  .animationFadeInModule .hidden-below-desk {
     display: none; } }
 
-@media screen and (min-width: 64em) {
-  .myspaceBaseWrap .hidden-desk-and-up {
+@media screen and (min-width: 62.5em) {
+  .animationFadeInModule .hidden-desk-and-up {
     display: none; } }
 
 @media screen and (max-width: 74.99em) {
-  .myspaceBaseWrap .hidden-below-wall {
+  .animationFadeInModule .hidden-below-wall {
     display: none; } }
 
 @media screen and (min-width: 75em) {
-  .myspaceBaseWrap .hidden-wall-and-up {
+  .animationFadeInModule .hidden-wall-and-up {
     display: none; } }
 
-.myspaceBaseWrap .float-right {
+.animationFadeInModule .float-right {
   float: right !important; }
 
-.myspaceBaseWrap .float-left {
+.animationFadeInModule .float-left {
   float: left !important; }
 
-.myspaceBaseWrap .text-left {
+.animationFadeInModule .text-left {
   text-align: left !important; }
 
-.myspaceBaseWrap .text-center {
+.animationFadeInModule .text-center {
   text-align: center !important; }
 
-.myspaceBaseWrap .text-right {
+.animationFadeInModule .text-right {
   text-align: right !important; }
 
-.myspaceBaseWrap .text-upper {
+.animationFadeInModule .text-upper {
   text-transform: uppercase !important; }
 
-.myspaceBaseWrap .text-strong {
+.animationFadeInModule .text-strong {
   font-weight: bold !important; }
 
-.myspaceBaseWrap .text-nowrap {
+.animationFadeInModule .text-nowrap {
   white-space: nowrap !important; }
 
-.myspaceBaseWrap .display-table {
+.animationFadeInModule .display-table {
   display: table;
   width: 100%; }
 
-.myspaceBaseWrap .display-row {
+.animationFadeInModule .display-row {
   display: table-row; }
 
-.myspaceBaseWrap .display-cell {
+.animationFadeInModule .display-cell {
   display: table-cell;
   vertical-align: middle; }
 
-.myspaceBaseWrap .anchor-plain {
+.animationFadeInModule .anchor-plain {
   color: inherit; }
-  .myspaceBaseWrap .anchor-plain:hover, .myspaceBaseWrap .anchor-plain:focus {
+  .animationFadeInModule .anchor-plain:hover, .animationFadeInModule .anchor-plain:focus {
     text-decoration: none; }
 
-html .mySpaceBaseWrap {
-  font: 1em/1.75 Arial, Helvetica, sans-serif;
-  color: #000000;
+html .animationFadeInModule {
+  font: 0.625em/2.8 Arial, Helvetica, sans-serif;
+  color: #333333;
   background: #ffffff;
   -webkit-tap-highlight-color: transparent; }
 
-.mySpaceBaseWrap a {
-  color: #7abcb5;
+.animationFadeInModule a {
+  color: #006554;
   text-decoration: none; }
-  .mySpaceBaseWrap a:hover, .mySpaceBaseWrap a:focus {
+  .animationFadeInModule a:hover, .animationFadeInModule a:focus {
     text-decoration: underline; }
 
-.mySpaceBaseWrap i {
+.animationFadeInModule i {
   font-style: normal; }
 
-.mySpaceBaseWrap h1, .mySpaceBaseWrap .h1,
-.mySpaceBaseWrap h2, .mySpaceBaseWrap .h2,
-.mySpaceBaseWrap h3, .mySpaceBaseWrap .h3,
-.mySpaceBaseWrap h4, .mySpaceBaseWrap .h4,
-.mySpaceBaseWrap h5, .mySpaceBaseWrap .h5,
-.mySpaceBaseWrap h6, .mySpaceBaseWrap .h6 {
+.animationFadeInModule h1, .animationFadeInModule .h1,
+.animationFadeInModule h2, .animationFadeInModule .h2,
+.animationFadeInModule h3, .animationFadeInModule .h3,
+.animationFadeInModule h4, .animationFadeInModule .h4,
+.animationFadeInModule h5, .animationFadeInModule .h5,
+.animationFadeInModule h6, .animationFadeInModule .h6 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal; }
 
-.mySpaceBaseWrap h1, .mySpaceBaseWrap .h1 {
+.animationFadeInModule h1, .animationFadeInModule .h1 {
   font-size: 1.875rem;
   line-height: 1; }
 
-.mySpaceBaseWrap h2, .mySpaceBaseWrap .h2 {
+.animationFadeInModule h2, .animationFadeInModule .h2 {
   font-size: 1.25rem;
   line-height: 1.2; }
 
-.mySpaceBaseWrap h3, .mySpaceBaseWrap .h3 {
+.animationFadeInModule h3, .animationFadeInModule .h3 {
   font-size: 1rem;
   line-height: 1.4; }
 
-.mySpaceBaseWrap h4, .mySpaceBaseWrap .h4 {
+.animationFadeInModule h4, .animationFadeInModule .h4 {
   font-size: 0.875rem; }
 
-@media screen and (min-width: 48em) {
-  .mySpaceBaseWrap h1, .mySpaceBaseWrap .h1 {
+@media screen and (min-width: 40em) {
+  .animationFadeInModule h1, .animationFadeInModule .h1 {
     font-size: 3.6rem; }
-  .mySpaceBaseWrap h2, .mySpaceBaseWrap .h2 {
+  .animationFadeInModule h2, .animationFadeInModule .h2 {
     font-size: 2.4rem; }
-  .mySpaceBaseWrap h3, .mySpaceBaseWrap .h3 {
+  .animationFadeInModule h3, .animationFadeInModule .h3 {
     font-size: 1.5rem; }
-  .mySpaceBaseWrap h4, .mySpaceBaseWrap .h4 {
+  .animationFadeInModule h4, .animationFadeInModule .h4 {
     font-size: 1.2rem; } }
 
-.mySpaceBaseWrap .island,
-.mySpaceBaseWrap .islet,
-.mySpaceBaseWrap .landmark,
-.mySpaceBaseWrap .landmarklet {
+.animationFadeInModule .island,
+.animationFadeInModule .islet,
+.animationFadeInModule .landmark,
+.animationFadeInModule .landmarklet,
+.animationFadeInModule .copy {
   display: block; }
-  .mySpaceBaseWrap .island:after,
-  .mySpaceBaseWrap .islet:after,
-  .mySpaceBaseWrap .landmark:after,
-  .mySpaceBaseWrap .landmarklet:after {
+  .animationFadeInModule .island:after,
+  .animationFadeInModule .islet:after,
+  .animationFadeInModule .landmark:after,
+  .animationFadeInModule .landmarklet:after,
+  .animationFadeInModule .copy:after {
     display: table;
     content: "";
     clear: both; }
-  .mySpaceBaseWrap .island > :last-child,
-  .mySpaceBaseWrap .islet > :last-child,
-  .mySpaceBaseWrap .landmark > :last-child,
-  .mySpaceBaseWrap .landmarklet > :last-child {
+  .animationFadeInModule .island > :last-child,
+  .animationFadeInModule .islet > :last-child,
+  .animationFadeInModule .landmark > :last-child,
+  .animationFadeInModule .landmarklet > :last-child,
+  .animationFadeInModule .copy > :last-child {
     margin-bottom: 0; }
 
-.mySpaceBaseWrap .island {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem; }
+.animationFadeInModule .island {
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem; }
 
-.mySpaceBaseWrap .islet {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem; }
+.animationFadeInModule .islet {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem; }
 
-.mySpaceBaseWrap .landmark {
-  margin-bottom: 3.5rem; }
+.animationFadeInModule .landmark {
+  margin-bottom: 5.6rem; }
 
-.mySpaceBaseWrap .landmarklet {
-  margin-bottom: 1.75rem; }
+.animationFadeInModule .landmarklet {
+  margin-bottom: 2.8rem; }
 
-.mySpaceBaseWrap .media:after {
-  display: table;
-  content: "";
-  clear: both; }
-
-.mySpaceBaseWrap .media__item {
-  float: left;
-  margin-right: 0.875rem; }
-  .mySpaceBaseWrap .media__item img,
-  .mySpaceBaseWrap .media__item video,
-  .mySpaceBaseWrap .media__item iframe,
-  .mySpaceBaseWrap .media__item object {
-    display: block; }
-
-.mySpaceBaseWrap .media__body,
-.mySpaceBaseWrap .media__body > :last-child {
-  margin-bottom: 0; }
-
-.mySpaceBaseWrap .media--flip > .media__item {
-  float: right;
-  margin-right: 0;
-  margin-left: 0.875rem; }
-
-.mySpaceBaseWrap .media--nowrap > .media__body {
-  overflow: hidden; }
-
-.mySpaceBaseWrap .media--valign {
-  display: table;
-  width: 100%; }
-  .mySpaceBaseWrap .media--valign .media__item,
-  .mySpaceBaseWrap .media--valign .media__body {
-    float: none;
-    display: table-cell;
-    vertical-align: middle; }
-  .mySpaceBaseWrap .media--valign .media__item {
-    padding-right: 0.875rem; }
-    .mySpaceBaseWrap .media--valign .media__item img {
-      width: auto !important;
-      max-width: none !important; }
-
-body {
-  min-width: 320px; }
-
-.mySpaceBaseWrap .site-wrapper {
-  max-width: 1440px;
+.animationFadeInModule .site-wrapper {
+  max-width: 2000px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.75rem;
-  padding-right: 1.75rem; }
+  padding-left: 2.8rem;
+  padding-right: 2.8rem; }
+
+html {
+  /** end body */ }
+  html body {
+    /** end .animationFadeInModule */ }
+    html body .animationFadeInModule {
+      /** end .site-wrapper */ }
+      html body .animationFadeInModule .grid-wrapper {
+        margin: 4em auto; }
+      html body .animationFadeInModule .site-wrapper {
+        /** Items below needed for the animationFadeInModule */ }
+        html body .animationFadeInModule .site-wrapper img {
+          max-width: 100%; }
+        html body .animationFadeInModule .site-wrapper .animate {
+          filter: opacity(0);
+          -webkit-filter: opacity(0);
+          -moz-filter: opacity(0);
+          -ms-filter: opacity(0);
+          -o-filter: opacity(0);
+          transition: -webkit-filter 1s ease-in;
+          transition: filter 1s ease-in;
+          transition: filter 1s ease-in, -webkit-filter 1s ease-in; }
+          html body .animationFadeInModule .site-wrapper .animate.in-view {
+            filter: opacity(1);
+            -webkit-filter: opacity(1);
+            -moz-filter: opacity(1);
+            -ms-filter: opacity(1);
+            -o-filter: opacity(1); }
+
+/** end html */
