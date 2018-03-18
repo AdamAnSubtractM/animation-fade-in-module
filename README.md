@@ -1,8 +1,7 @@
-animationFadeInModule
+animation-fade-in-module
 =========
 
-The animationFadeInModule can be used to provide smooth transitions of elements on the page as the user scrolls. This allows elements to subtlely fade-in and ultimate provides a better user experience. This uses the filter opacity CSS 3 element, so likely won't work in IE. This is okay because it doesn't impact the way the user can consumer the information.
-
+The animation-fade-in-module can be used to provide smooth transitions of elements on the page as the user scrolls. This allows elements to subtlely fade-in and ultimate provides a better user experience. This uses the filter opacity CSS 3 element.
 ## There are a few things to know before using this in your project:
 
 1. For starters, I built this with my boilerplate but you *DON'T* need my boilerplate to make the module work in your project
@@ -10,7 +9,7 @@ The animationFadeInModule can be used to provide smooth transitions of elements 
 2. The module requires the HTML to build it, the CSS to style it and the JS/JQuery to give it the functionality
 
 5. Questions?
-    * Adam.Knee@dcsg.com
+    * Adam.L.Knee@gmail.com
 
 ## Using the boilerplate & getting started:
 
@@ -21,9 +20,9 @@ mySpaceBase
 
 ## Getting Started
 ```sh
-1. $ git clone https://user-name@bitbucket.org/dsgfed/myspacebase.git
+1. $ git clone https://github.com/AdamAndSubtractThem/animation-fade-in-module
 2. $ npm i
-3. $ gulp launch or 'gulp dev' to start the tasker
+3. $ gulp launch
 ```
 4. Open scss/_vars.scss to make changes to your global variables.
 4. Start building out your HTML. I've included index.html as a starting point.
